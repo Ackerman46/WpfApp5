@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.Интерфейс.ViewObjWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Просмотр записи" Height="407" Width="200" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid Background="{DynamicResource GridBrush}">
+        <TextBox HorizontalAlignment="Center" Margin="0,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="tbName" IsReadOnly="True" Background="{x:Null}" Foreground="WhiteSmoke"/>
+        <Label Content="Фамилия" HorizontalAlignment="Center" Margin="0,9,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+
+        <TextBox HorizontalAlignment="Center" Margin="0,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="tbMiddleName" IsReadOnly="True" Background="{x:Null}" Foreground="WhiteSmoke"/>
+        <Label Content="Имя" HorizontalAlignment="Center" Margin="0,56,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+
+        <TextBox HorizontalAlignment="Center" Margin="0,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" x:Name="tbPatronymic" Width="120" IsReadOnly="True" Background="{x:Null}" Foreground="WhiteSmoke"/>
+        <Label Content="Отчество" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9" />
+
+        <TextBox HorizontalAlignment="Center" Margin="0,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="tbTelephoneNumber" IsReadOnly="True" Background="{x:Null}" Foreground="#FFF7F7F7"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Margin="42,211,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+
+        <TextBox HorizontalAlignment="Center" Margin="0,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="tbPhoneSetup" IsReadOnly="True" Background="{x:Null}" Foreground="#FFF3F2F2"/>
+        <Label Content="Тип установки телефона" HorizontalAlignment="Center" Margin="0,259,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+        <DatePicker HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Width="117" x:Name="dtYearInstallation"/>
+        <Label Content="Год установки" HorizontalAlignment="Left" Margin="53,156,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="tbBenefit" IsReadOnly="True" Background="{x:Null}" Foreground="#FFF3F2F2"/>
+        <Label Content="Льгота" HorizontalAlignment="Center" Margin="0,308,0,0" VerticalAlignment="Top" Foreground="#FFFFF9F9"/>
+
+    </Grid>
+</Window>

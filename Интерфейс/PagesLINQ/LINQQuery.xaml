@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Интерфейс.PagesLINQ.LINQQuery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Запросы на выборку" Height="200" Width="300" ResizeMode="NoResize">
+    <Grid Background="{DynamicResource GridBrush}">
+        <Menu VerticalAlignment="Top" Background="Transparent">
+            <MenuItem Header="№1" Foreground="White" x:Name="QueryOne" Click="QueryOne_Click"/>
+            <MenuItem Header="№2" Foreground="White" x:Name="QueryTwo" Click="QueryTwo_Click"/>
+            <MenuItem Header="№3" Foreground="White" x:Name="QueryThree" Click="QueryThree_Click"/>
+            <MenuItem Header="№4" Foreground="White" x:Name="QueryFour" Click="QueryFour_Click"/>
+            <MenuItem Header="№5" Foreground="White" x:Name="QueryFive" Click="QueryFive_Click"/>
+        </Menu>
+        <Frame Margin="0,18,0,0" Source="./QueryLINQOnePage.xaml" x:Name="PagesChange" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

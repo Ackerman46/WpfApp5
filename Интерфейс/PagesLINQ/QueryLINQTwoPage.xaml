@@ -1,0 +1,13 @@
+﻿<Page x:Class="WpfApp1.Интерфейс.PagesLINQ.QueryLINQTwoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="200" d:DesignWidth="300" Title="Выборка по номеру телефона">
+    <Grid Background="{DynamicResource GradBrush}">
+        <TextBox HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" x:Name="tbTelephone"/>
+        <Label Content="Выборка по номеру телефона" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top"/>
+        <Button Content="Применить" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top" Width="178" x:Name="btApply" Click="btApply_Click"/>
+    </Grid>
+</Page>

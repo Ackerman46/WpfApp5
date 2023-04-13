@@ -1,0 +1,14 @@
+﻿<Page x:Class="WpfApp1.Interface.Pages.QueryDeleteTwoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Interface.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="200" d:DesignWidth="300" Title="Удаление по номеру абонента">
+    <Grid Background="{DynamicResource GradBrush}">
+        <TextBox HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" x:Name="tbDelId"/>
+        <Label Content="Введите номер абонента для удаления" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top"/>
+        <Button Content="Применить" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top" Width="178" x:Name="btApply" Click="btApply_Click"/>
+    </Grid>
+</Page>
